@@ -1,0 +1,178 @@
+<html>
+<head>
+    <title>This is the title to my webpage under the title tag</title>
+<!--
+    <style>
+        p{
+            font-size: 40px;
+            font-weight: bold;
+            colour: red;
+        }
+    </style>
+-->
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+    <body>
+        <h1>This is heading 1 under the h1 tag</h1>
+        <h2>This is heading 2 under the h2 tag</h2>
+        <h3>This is heading 3 under the h3 tag</h3>
+        <h4>This is heading 4 under the h4 tag</h4>
+        <h5>This is heading 5 under the h5 tag</h5>
+        <h6>This is heading 6 under the h6 tag</h6>
+
+        <p>This will be displayed as normal text under the p tag</p>
+        
+        <a href="https://www.youtube.com/watch?v=GAZVvpjxYQY">This is anchor text that leads to a link under the a tag</a>
+        <p>The link above goes the the video teaching me HTML and CSS</p>
+
+        <a href="/about.html">/about.html anchor</a>
+
+            <small>This is small text under the small tag</small>
+        
+        <p>The b tag makes the font <b>bold</b></p>
+        <p>The <strong>strong</strong> tag also makes the font bold</p>
+        <p>The i tag <i>italisizes</i> the text</p>
+
+        <p>William Shakespeare (April 1564 - 23 April 1616) was an English playwright, poet and actor. He is widely regarded as the greatest writer in the English. 
+
+            <b>I will add a linebreak using the br tag here</b><br>
+        
+        language and the world's pre-eminent dramatist. He is often called England's national poet and the "Bard of Avon" (or simply "the Bard"). His extant works, 
+            <b>br tag</b><br>
+        including collaborations, consist of some 39 plays, 154 sonnets, three long narrative poems, and a few other verses, some of uncertain authorship. 
+            <b>br tag</b><br>
+        His plays have been translated into every major living language and are performed more often than those of any other playwright. Shakespeare remains arguably 
+            <b>br tag</b><br>
+        the most influential writer in the English language, and his works continue to be studied and reinterpreted.</p>
+
+        <p>The hr tag makes a horizontal line</p>
+            <hr>
+        
+        <p>Under the form tag, we will see what we can add</p>
+            <form>
+<!--
+                <input>
+                <label></label>
+                <select></select>
+                <option></option>
+                <textarea></textarea>
+                <button></button>
+-->
+                <label>Use the input tag and define a tag to allow the user to type something, the placeholder is a temporary thing, adding required makes it so the user must input
+                something for the form to be accepted. If an input is required and a user does not input anything, they will receive a pop up warning.
+                </label>
+                <label>Username</label> <br> <input type="text" placeholder="placeholder, required text" required> <br>
+                <label>Email</label> <br> <input type="email" placeholder="placeholder, required email" required> <br>
+                <label>Password</label> <br> <input type="password" placeholder="placeholder, required password" required> <br><br>
+
+                <label>I am adding a select button with an input of type radio, if I add name I categorize them, if I add checked, it will be checked by default </label> 
+                <input type="radio" name="example"> <input type="radio" name="example" checked> <br>
+
+                <label><b>Select your gender</b></label> <br> 
+                <label>Female</label> <input type="radio" name="gender"> <br>
+                <label>Male</label> <input type="radio" name="gender"> <br>
+                <label>Other</label> <input type="radio" name="gender" checked> <br><br>
+                
+                <label>I am adding a checkbox, adding a name categorizes it</label> <br>
+                <input type="checkbox" name="checkbox"> <label>Checkbox option 1</label> <br>
+                <input type="checkbox" name="checkbox"> <label>Checkbox option 2</label> <br><br>
+
+                <label>We can also use an input feild to upload files</label> <br>
+                <input type="file"> <br><br>
+
+                <label>I will add an area that allows users to input a message using the textarea tag, the area is expandable</label> <br>
+                <textarea placeholder="Write your message here"></textarea> <br><br>
+
+                <label>Create a drop down using the select tag and option tags</label> <br>
+                <select>
+                    <option>Drop down option 1</option>
+                    <option>Drop down option 2</option>
+                    <option>Drop down option 3</option>
+                </select> <br><br>
+
+                <label>We can create buttons two ways. The first is by using the input tag with type submit where the value puts a name on the button</label> <br>
+                <input type="submit" value="Input Button"> <br>
+
+                <label>The second way is by using the button tag, we can make it a submit button and also a reset button</label> <br>
+                <button type="submit">Submit</button> <button type="reset">Reset</button>
+            </form>
+
+        <hr>
+        <p>We can make two types of lists, the first type is an unordered list that we will make under the ul tag</p>
+            <ul>
+                <li>Welcome to my website</li>
+                <li>Subscribe to my website</li>
+                <li>Like and share this website</li>
+                <li>Read till the end of this website</li>
+                <li>Comment on this website</li>
+            </ul>
+        
+        <p>We can make an ordered list using the ol tag</p>
+            <ol>
+                <li>Welcome to my website</li>
+                <li>Subscribe to my website</li>
+                <li>Like and share this website</li>
+                <li>Read till the end of this website</li>
+                <li>Comment on this website</li>
+            </ol>
+
+        <hr>
+        <p>We can also make tables using the table tag, the tr tag adds one row to the table, the td tags adds a single cell of dataa to the table, to display the first row as a heading, 
+            use th instead of td, to add a border, just add border beside the table tag. The value of border is the border width</p>
+            <table border="1">
+                <tr>
+                    <th>Heading 1</th>
+                    <th>Heading 2</th>
+                    <th>Heading 3</th>
+                </tr>
+                <tr>
+                    <td>Cell 1</td>
+                    <td>Cell 2</td>
+                    <td>Cell 3</td>
+                </tr>
+                <tr>
+                    <td>Cell 4</td>
+                    <td>Cell 5</td>
+                    <td>Cell 6</td>
+                </tr>
+                <tr>
+                    <td>Cell 7</td>
+                    <td>Cell 8</td>
+                    <td>Cell 9</td>
+                </tr>
+            </table>
+        
+        <hr>
+        <p>We can also add an image to the webstie using the img tag like below</p>
+        <img src="quentin_pic.png">
+
+        <hr>
+        <p>Now let's add CSS to our webpage, CSS is able to change how our content looks whereas HTML changes what our content is. There are three options to adding CSS; inline CSS, 
+            internal CSS, and external CSS.</p>
+        
+            <p style="font-size: 40px">This is inline CSS</p>
+
+            <p>For internal CSS, we have to write it under the head tag, not the body tag. Everything under the p tag has the style applied.</p>
+
+            <p class="external">When there's a lot of HTML and CSS, we create an external CSS file to apply to the HTML file. We link the files under the head tag. In order to add CSS to a particular tag
+                we assign class names to the tag and then apply the CSS to that class name in particular.</p>
+
+            <div class="section-1">
+                <h1 class="h1-div">This is a header under the div class, it's like a box/section</h1>
+                <p class="div-section">This is paragraph text under the div class</p>
+                <button type="submit" class="butt">submit</button>
+            </div>
+
+            <div class="borders-1">
+                <p class="div-section">Border testing 0</p>
+            </div>
+
+            <div class="borders-2">
+                <p class="div-section">Border testing 1</p>
+            </div>
+
+            <div class="borders-3">
+                <p class="div-section">Border testing 2</p>
+            </div>
+    </body>
+</html>  
