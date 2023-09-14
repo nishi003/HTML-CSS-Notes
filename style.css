@@ -22,6 +22,7 @@
     background-repeat: none;
     background-position: bottom;
     background-size: cover;
+    cursor: crosshair;
 }
 .butt
 {
@@ -30,6 +31,7 @@
 .butt:hover 
 {
     background: white;
+    float: right;
 }
 .borders-1
 {
@@ -37,13 +39,40 @@
     border-width: 2px;
     border-color: bisque;
     border-top-right-radius: 50px;
+    margin: 20px;
+    padding: 20px;
 }
 .borders-2
 {
     border:bisque solid 2px;
+    float: right;
 }
 .borders-3
 {
     border-top: purple dashed 4px;
     border-left: orange dotted 3px;
+}
+.invis
+{
+    display: none;
+}
+.invis1
+{
+    visibility: hidden;
+}
+.section-2
+{
+    background-color: #b2f5ea;
+    height: 500px;
+    width: 50%;
+    min-width: 300px;
+}
+.text-dat
+{
+    line-height: 30px;
+    font-family: sans-serif;
+}
+.css-ul
+{
+    list-style: none;
 }
