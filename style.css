@@ -67,6 +67,15 @@
     width: 50%;
     min-width: 300px;
 }
+.section-2 p
+{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    text-shadow: 20px 10px 5px darkblue;
+}
 .text-dat
 {
     line-height: 30px;
@@ -75,4 +84,25 @@
 .css-ul
 {
     list-style: none;
+}
+input
+{
+    outline-color: red;
+}
+input:focus
+{
+    background-color: black;
+    color: aliceblue;
+}
+.nested-div-outer .nested-div-inner p
+{
+    color: red;
+}
+.nested-div-outer .nested-div-inner p:active
+{
+    background: #b2f5ea;
+}
+.nested-div-outer .nested-div-inner .quentin-gey:hover
+{
+    color: gray;
 }
