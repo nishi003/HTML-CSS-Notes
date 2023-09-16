@@ -152,3 +152,40 @@ input:focus
     right: -10px;
     bottom: -10px;
 }
+.display-flex
+{
+    width: 700px;
+    height: 700px;
+    background: indianred;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+}
+.display-flex-inner
+{
+    width: 150px;
+    height: 150px;
+    background: teal;
+    font-size: 24px;
+    color: wheat;
+}
+.display-flex-inner:nth-child(1)
+{
+    background: red;
+    flex-basis: 15%;
+}
+.display-flex-inner:nth-child(2)
+{
+    background: orange;
+    flex-basis: 20%;
+}
+.display-flex-inner:nth-child(3)
+{
+    background: yellow;
+    flex-basis: 40%;
+}
+.display-flex-inner:nth-child(4)
+{
+    background: green;
+    flex: 1;
+}
